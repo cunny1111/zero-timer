@@ -8,7 +8,7 @@ heavily inspired by statementreply's timing analyzer, but rewritten in c++ with 
 
 ## architecture
 just a simple visualization of the spagetti logic:
-```
+```mermaid
 graph TD
     A[audio input] --> B[aubio analysis]
     B --> C{scouting phase}
